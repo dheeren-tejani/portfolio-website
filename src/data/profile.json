@@ -1,0 +1,139 @@
+{
+    "name": "Dheeren Tejani",
+    "bio": "A passionate AI developer and lifelong learner.",
+    "title": "AI Developer",
+    "email": "dheerentejani05@gmail.com.com",
+    "social": {
+        "linkedin": "https://linkedin.com/in/dheeren-tejani",
+        "github": "https://github.com/johndoe"
+    },
+    "skills": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "CSS"
+    ],
+    "projects": [
+        {
+            "title": "Image Upscaler",
+            "description": "AI-powered image upscaling tool that enhances image quality by 2x or 4x or 8x using deep learning models. It uses React Frontend and Python FastAPI backend",
+            "techUsed": [
+                "React",
+                "FastAPI",
+                "PyTorch",
+                "ResNet"
+            ],
+            "image": {
+                "url": "/project-images/image-upscaler.png"
+            }
+        },
+        {
+            "title": "Diabetic Retinopathy Diagnosis",
+            "description": "A Deep learning Classification + NLP model that detects Diabetic Retinopathy disease and classifies them into 5 classes + provide the lesions present in them and gives Natural Language diagnosis",
+            "techUsed": [
+                "PyTorch",
+                "Streamlit",
+                "EfficientNet",
+                "Grad-CAM"
+            ],
+            "image": {
+                "url": "/project-images/diabetic-retinopathy-diagnosis.png"
+            }
+        },
+        {
+            "title": "Talk to your Data",
+            "description": "AI-powered data analysis app that supports multi-format dataset uploads, performs automatic data profiling (charts, completeness, missing values, domain detection), and enables conversational insights using RAG-based AI chat.",
+            "techUsed": [
+                "React",
+                "Tailwind CSS",
+                "TypeScript"
+            ],
+            "image": {
+                "url": "/project-images/Talk-to-your-data.png"
+            }
+        },
+        {
+            "title": "Cyberpunk Theme Image Generation",
+            "description": "An AI Image Generation application that generates high quality, multiple aspect ratios images from user prompts, it uses fine-tuned stable-diffusion 1.5 model",
+            "techUsed": [
+                "PyTorch",
+                "FastAPI",
+                "React",
+                "Stable Diffusion"
+            ],
+            "image": {
+                "url": "/project-images/cyberpunk-image-gen-part2.png"
+            }
+        },
+        {
+            "title": "Legal Document Analyzer",
+            "description": "AI application that let's user upload their legal documents, and the app performs analysis to detect risky clauses and subclauses, their severity level, and generate recommended improvisations on it",
+            "techUsed": [
+                "Streamlit",
+                "Python",
+                "Document Parsing"
+            ],
+            "image": {
+                "url": "/project-images/ai-lawyer.png"
+            }
+        },
+        {
+            "title": "Movie Recommendation System",
+            "description": "A content-based movie recommender that analyzes movie metadata to compute similarity scores and deliver intelligent suggestions. Built with Python, the system includes a Jupyter notebook for data processing and model generation, and a Streamlit app for an interactive user experience.",
+            "techUsed": [
+                "Streamlit",
+                "Jupyter",
+                "Scikit Learn",
+                "nltk"
+            ],
+            "image": {
+                "url": "/project-images/movie-recommendation-system.png"
+            }
+        }
+    ],
+    "certifications": [
+        {
+            "name": "AWS Certified Solutions Architect",
+            "issuer": "Amazon Web Services",
+            "year": 2022
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "Vivekanand Education Society of Arts, Science and Commerce (Autonomous)",
+            "role": "Static Web Forms Development",
+            "startYear": 2023,
+            "endYear": "Present",
+            "techStack": "HTML, CSS, JS, Google AppScript",
+            "summaryPoints": [
+                "Developed web, stylized functional HTML Forms for the organisation for their internal use",
+                "Used Google AppScript, to connect the form with Google Sheets, GMail etc,"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Vivekanand Education Society of Arts, Science and Commerce (Autonomous)",
+            "degree": "Bachelors of Science in Artificial Intelligence",
+            "startYear": 2023,
+            "endYear": 2026 ,
+            "summaryPoints": [
+                "Graduating with honors.",
+                "Focused on Web Development, Deep Learning with Pytorch and high-learning projects .",
+                "Current Latest CGPA = 8.48"
+            ]
+        }
+    ],
+    "education2": [
+        {
+            "institution": "Smt. Chandibai Himatmal Mansukhani College of Arts, Science and Commerce",
+            "degree": "HSC",
+            "startYear": 2023,
+            "endYear": 2021,
+            "summaryPoints": [
+                "Passed with 74%",
+                "Had subjects like Maths, IT, CS"
+            ]
+        }
+    ]
+}
