@@ -11,22 +11,22 @@ interface ContinueWatchingProps {
 const continueWatchingConfig = {
   recruiter: [
     { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
+    { title: "Gaming", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/gaming" },
     { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ],
   developer: [
     { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
+    { title: "Gaming", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/gaming" },
     { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
     { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ],
   stalker: [
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
+    { title: "Gaming", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/gaming" },
     { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ],
   adventure: [
     { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
+    { title: "Gaming", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/gaming" },
     { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
     { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ]

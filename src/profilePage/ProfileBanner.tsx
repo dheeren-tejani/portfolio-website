@@ -9,7 +9,7 @@ const ProfileBanner: React.FC = () => {
   const bannerData = {
     headline: profile.title, // e.g., 'Frontend Developer'
     profileSummary: profile.bio, // e.g., 'A passionate web developer and lifelong learner.'
-    resumeLink: { url: '#' }, // Placeholder, update with your resume link
+    resumeLink: { url: '/Resume.pdf' }, // Link to resume PDF in public folder
     linkedinLink: profile.social?.linkedin || '#',
     backgroundImage: { url: '' }, // Not used in this component, but required by type
   };

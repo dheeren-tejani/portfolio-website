@@ -25,7 +25,16 @@ const WorkExperience: React.FC = () => {
     techStack: '', // Education items don't have a tech stack
   }));
 
-  const timeLineData = [...workItems, ...educationItems].sort((a, b) => b.startYear - a.startYear);
+  const education2Items = profile.education2.map(edu => ({
+    ...edu,
+    timelineType: 'education' as const,
+    dateRange: `${edu.startYear} - ${edu.endYear}`,
+    name: edu.institution,
+    title: edu.degree,
+    techStack: '', // Education items don't have a tech stack
+  }));
+
+  const timeLineData = [...workItems, ...educationItems, ...education2Items].sort((a, b) => b.startYear - a.startYear);
 
   return (
     <>

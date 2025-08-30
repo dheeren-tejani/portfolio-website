@@ -1,13 +1,13 @@
-/* Reading.css */
+/* Gaming.css */
 
-.reading-container {
+.gaming-container {
   padding: 5rem 2rem;
   color: #333;
   text-align: center;
   /* background: linear-gradient(to bottom right, #fdfbfb, #ebedee); */
 }
 
-.reading-title {
+.gaming-title {
   font-size: 2.5rem;
   color: #ff6f61;
   font-weight: bold;
@@ -15,7 +15,7 @@
   animation: slideDown 0.8s ease-in-out;
 }
 
-.reading-intro {
+.gaming-intro {
   font-size: 1.1rem;
   color:white;
   margin-bottom: 2rem;
@@ -28,16 +28,15 @@
 }
 
 .book-card {
-  background: #fff;
+  background: #1e1e1e;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation: fadeInUp 0.5s ease forwards;
-  opacity: 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  animation: popUp 2s ease forwards;
+  opacity: 1;
+  animation: fadeInUp 0.6s ease forwards;
+  animation-delay: var(--delay);
 }
 
 .book-card:hover {
@@ -59,19 +58,19 @@
 
 .book-title {
   font-size: 1.2rem;
-  color: #333;
+  color: #e74e56;
   margin: 0.5rem 0;
 }
 
 .book-author {
   font-size: 1rem;
-  color: #888;
+  color: white;
   margin-bottom: 1rem;
 }
 
 .book-description {
   font-size: 0.9rem;
-  color: #555;
+  color: #888;
   transition: color 0.3s ease;
 }
 

@@ -1,14 +1,16 @@
 import React from 'react';
 import './Music.css';
-import albumCover1 from '../images/Hotelcalifornia.jpg'; // Hotel California by The Eagles
-import albumCover2 from '../images/ac-dc.jpg'; // Back in Black by AC/DC
-import albumCover3 from '../images/guns-n-roses.webp'; // Appetite for Destruction by Guns N' Roses
+import songCover1 from '../images/style-by-taylor-swift.png'; // Hotel California by The Eagles
+import songCover2 from '../images/espresso-by-sabrina-carpenter.png'; // Back in Black by AC/DC
+import songCover3 from '../images/brooklyn-baby-by-lanadelray.jpg'; // Appetite for Destruction by Guns N' Roses
+import songCover4 from '../images/agora-hills-by-doja-cat.png'; // Appetite for Destruction by Guns N' Roses
 
 const favoriteGenres = ["Lana Del Ray", "Dua Lipa", "Sabrina Carpenter", "Lady Gaga"];
-const favoriteAlbums = [
-  { title: "Hotel California", artist: "The Eagles", imgSrc: albumCover1 },
-  { title: "Back in Black", artist: "AC/DC", imgSrc: albumCover2 },
-  { title: "Appetite for Destruction", artist: "Guns N' Roses", imgSrc: albumCover3 },
+const favoriteSongs = [
+  { title: "Style", artist: "Taylor Swift", imgSrc: songCover1 },
+  { title: "Espresso", artist: "Sabrina Carpenter", imgSrc: songCover2 },
+  { title: "Brooklyn Baby", artist: "Lana Del Ray", imgSrc: songCover3 },
+  { title: "Agora Hills", artist: "Doja Cat", imgSrc: songCover4 },
 ];
 
 const Music: React.FC = () => {
@@ -29,15 +31,15 @@ const Music: React.FC = () => {
         </div>         
       </div>
 
-      <div className="albums-section">
-        <h3>Favorite Albums</h3>
-        <div className="albums">
-          {favoriteAlbums.map((album, index) => (
-            <div key={index} className="album-card" style={{ animationDelay: `${index * 0.3}s` }}>
-              <img src={album.imgSrc} alt={album.title} className="album-image" />
-              <div className="album-details">
-                <h4>{album.title}</h4>
-                <p>by {album.artist}</p>
+      <div className="songs-section">
+        <h3>Favorite Songs</h3>
+        <div className="songs">
+          {favoriteSongs.map((song, index) => (
+            <div key={index} className="song-card" style={{ animationDelay: `${index * 0.3}s` }}>
+              <img src={song.imgSrc} alt={song.title} className="song-image" />
+              <div className="song-details">
+                <h4>{song.title}</h4>
+                <p>by {song.artist}</p>
               </div>
             </div>
           ))}
