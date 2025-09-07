@@ -1,5 +1,5 @@
 [build]
-  command = "yarn install --network-timeout 60000 && DISABLE_ESLINT_PLUGIN=true CI= yarn build"
+  command = "npm install && DISABLE_ESLINT_PLUGIN=true CI= npm run build"
   publish = "build"
   functions = "functions"
 

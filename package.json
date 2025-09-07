@@ -4,8 +4,7 @@
   "private": true,
   "engines": {
     "node": "18.0.0",
-    "yarn": "1.22.22",
-    "npm": "please-use-yarn"
+    "npm": ">=8.0.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.2",
@@ -49,7 +48,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.21.11",
-    "@types/react-vertical-timeline-component": "^2.6.5"
+    "@babel/plugin-transform-private-property-in-object": "^7.21.11"
   }
 }
