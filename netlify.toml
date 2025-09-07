@@ -1,5 +1,5 @@
 [build]
-  command = "yarn install --network-timeout 60000 && CI= yarn build"
+  command = "yarn install --network-timeout 60000 && DISABLE_ESLINT_PLUGIN=true CI= yarn build"
   publish = "build"
   functions = "functions"
 
@@ -8,6 +8,8 @@
   YARN_VERSION = "1.22.22"
   NPM_FLAGS = "--legacy-peer-deps"
   CI = "false"
+  DISABLE_ESLINT_PLUGIN = "true"
+  GENERATE_SOURCEMAP = "false"
 
 [[redirects]]
   from = "/*"

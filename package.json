@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.21.11"
+    "@babel/plugin-transform-private-property-in-object": "^7.21.11",
+    "@types/react-vertical-timeline-component": "^2.6.5"
   }
 }
