@@ -15,8 +15,34 @@
     ],
     "projects": [
         {
+            "title": "Custom GPT-2 LLM (Built from Scratch)",
+            "description": "Engineered a 124M-parameter Transformer model entirely from first principles. Implemented Causal Self-Attention and trained on the C4 dataset using Mixed Precision (AMP) and 8-bit optimization to master the internal mathematics of Large Language Models.",
+            "techUsed": [
+                "Transformers",
+                "FastAPI",
+                "PyTorch",
+                "NLP"
+            ],
+            "image": {
+                "url": "/project-images/gpt.png"
+            }
+        },
+        {
+            "title": "Latent Diffusion Model (Stable Diffusion)",
+            "description": "Built a complete Text-to-Image generation pipeline implementing the math behind Stable Diffusion. Architected a VAE for latent compression, a U-Net with Cross-Attention for text conditioning, and manual DDPM/DDIM noise schedulers.",
+            "techUsed": [
+                "Generative AI",
+                "Diffusion Models",
+                "PyTorch",
+                "Computer Vision"
+            ],
+            "image": {
+                "url": "/project-images/sd.png"
+            }
+        },
+        {
             "title": "Image Upscaler",
-            "description": "AI-powered image upscaling tool that enhances image quality by 2x or 4x or 8x using deep learning models. It uses React Frontend and Python FastAPI backend",
+            "description": "A high-performance video enhancement engine achieving a 7x speedup using NVIDIA TensorRT. Features a producer-consumer threaded pipeline, async CUDA execution, and a full-stack React/FastAPI architecture for real-time 4K upscaling.",
             "techUsed": [
                 "React",
                 "FastAPI",
@@ -41,18 +67,6 @@
             }
         },
         {
-            "title": "Talk to your Data",
-            "description": "AI-powered data analysis app that supports multi-format dataset uploads, performs automatic data profiling (charts, completeness, missing values, domain detection), and enables conversational insights using RAG-based AI chat.",
-            "techUsed": [
-                "React",
-                "Tailwind CSS",
-                "TypeScript"
-            ],
-            "image": {
-                "url": "/project-images/Talk-to-your-data.png"
-            }
-        },
-        {
             "title": "Cyberpunk Theme Image Generation",
             "description": "An AI Image Generation application that generates high quality, multiple aspect ratios images from user prompts, it uses fine-tuned stable-diffusion 1.5 model",
             "techUsed": [
@@ -63,6 +77,18 @@
             ],
             "image": {
                 "url": "/project-images/cyberpunk-image-gen-part2.png"
+            }
+        },
+        {
+            "title": "Talk to your Data",
+            "description": "AI-powered data analysis app that supports multi-format dataset uploads, performs automatic data profiling (charts, completeness, missing values, domain detection), and enables conversational insights using RAG-based AI chat.",
+            "techUsed": [
+                "React",
+                "Tailwind CSS",
+                "TypeScript"
+            ],
+            "image": {
+                "url": "/project-images/Talk-to-your-data.png"
             }
         },
         {

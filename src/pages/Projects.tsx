@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
-import { FaReact, FaNodeJs, FaAws, FaDatabase, FaDocker, FaAngular, FaGithub, FaGitlab, FaGoogle, FaJava, FaJenkins, FaMicrosoft, FaPython, FaVuejs, FaBrain } from 'react-icons/fa';
-import { SiRubyonrails, SiPostgresql, SiMongodb, SiMaterialdesign, SiHtml5, SiCss3, SiJquery, SiAwsamplify, SiFirebase, SiTerraform, SiArgo, SiPytorch, SiFastapi, SiStreamlit, SiScikitlearn, SiJupyter } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaAws, FaDatabase, FaDocker, FaAngular, FaGithub, FaGitlab, FaGoogle, FaJava, FaJenkins, FaMicrosoft, FaPython, FaVuejs, FaBrain, FaLanguage, FaProjectDiagram, FaRandom } from 'react-icons/fa';
+import { SiRubyonrails, SiPostgresql, SiMongodb, SiMaterialdesign, SiHtml5, SiCss3, SiJquery, SiAwsamplify, SiFirebase, SiTerraform, SiArgo, SiPytorch, SiFastapi, SiStreamlit, SiScikitlearn, SiJupyter, SiOpencv } from 'react-icons/si';
 import { GrDeploy, GrKubernetes } from "react-icons/gr";
 import profile from '../data/profile.json';
 
@@ -61,7 +61,12 @@ const techIcons: { [key: string]: JSX.Element } = {
   'ResNet': <FaBrain />,
   'Streamlit': <SiStreamlit />,
   'Scikit Learn': <SiScikitlearn />,
-  'Jupyter': <SiJupyter />
+  'Jupyter': <SiJupyter />,
+  'Computer Vision': <SiOpencv />,
+  'NLP': <FaLanguage />,
+  'Transformers': <FaProjectDiagram />,
+  'Diffusion Models': <FaRandom />,
+  'Generative AI': <FaBrain />
 };
 
 
