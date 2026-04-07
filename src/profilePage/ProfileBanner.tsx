@@ -3,6 +3,7 @@ import './ProfileBanner.css';
 import PlayButton from '../components/PlayButton';
 import MoreInfoButton from '../components/MoreInfoButton';
 import profile from '../data/profile.json';
+import { FaLinkedin } from 'react-icons/fa';
 
 const ProfileBanner: React.FC = () => {
   // Map static data to expected fields
@@ -32,7 +33,9 @@ const ProfileBanner: React.FC = () => {
 
         <div className="banner-buttons">
           <PlayButton onClick={handlePlayClick} label="Resume" />
-          <MoreInfoButton onClick={handleLinkedinClick} label="Linkedin" />
+          <MoreInfoButton onClick={handleLinkedinClick} label="Linkedin">
+            <FaLinkedin size={30} />
+          </MoreInfoButton>
         </div>
       </div>
     </div>

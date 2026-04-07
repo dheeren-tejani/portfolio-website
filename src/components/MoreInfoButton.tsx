@@ -1,15 +1,20 @@
 import React from 'react';
 import './MoreInfoButton.css';
+import { ReactNode } from 'react';
 
 interface MoreInfoButtonProps {
   onClick: () => void;
   label?: string;
+  children?: ReactNode;
 }
 
-const MoreInfoButton: React.FC<MoreInfoButtonProps> = ({ onClick, label = "More Info" }) => {
+const MoreInfoButton: React.FC<MoreInfoButtonProps> = ({ onClick, label = "More Info", children }) => {
   return (
     <button className="more-info-button" onClick={onClick} type="button">
       <div className="icon-container">
+        {children ? (
+          children
+        ) : (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -26,6 +31,7 @@ const MoreInfoButton: React.FC<MoreInfoButtonProps> = ({ onClick, label = "More 
             fill="white"
           />
         </svg>
+        )}
       </div>
       <div className="spacer"></div>
       <span className="label">{label}</span>

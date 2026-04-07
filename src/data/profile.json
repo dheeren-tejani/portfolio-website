@@ -15,8 +15,20 @@
     ],
     "projects": [
         {
+            "title": "RangeFlow",
+            "description": "An AI research project library aims to implement interval arithmetic in Deep Learning, enabling Continual Learning, Enhancing Model Robustness against adversarial attacks, and providing Uncertainty Estimation. Right now, it is in its early stages of development, but is showing promising results.",
+            "techUsed": [
+                "PyTorch",
+                "Interval Arithmetic",
+                "NumPy"
+            ],
+            "image": {
+                "url": "/project-images/rangeflow.png"
+            }
+        },
+        {
             "title": "Custom GPT-2 LLM (Built from Scratch)",
-            "description": "Engineered a 124M-parameter Transformer model entirely from first principles. Implemented Causal Self-Attention and trained on the C4 dataset using Mixed Precision (AMP) and 8-bit optimization to master the internal mathematics of Large Language Models.",
+            "description": "Engineered a 124M-parameter Transformer model entirely from first principles. Implemented Causal Self-Attention and trained on the C4 dataset using Mixed Precision (AMP) and 8-bit optimizers to master the internal mathematics of Large Language Models.",
             "techUsed": [
                 "Transformers",
                 "FastAPI",
@@ -28,7 +40,7 @@
             }
         },
         {
-            "title": "Latent Diffusion Model (Stable Diffusion)",
+            "title": "Latent Diffusion Model (Stable Diffusion from Scratch)",
             "description": "Built a complete Text-to-Image generation pipeline implementing the math behind Stable Diffusion. Architected a VAE for latent compression, a U-Net with Cross-Attention for text conditioning, and manual DDPM/DDIM noise schedulers.",
             "techUsed": [
                 "Generative AI",
@@ -38,19 +50,6 @@
             ],
             "image": {
                 "url": "/project-images/sd.png"
-            }
-        },
-        {
-            "title": "Image Upscaler",
-            "description": "A high-performance video enhancement engine achieving a 7x speedup using NVIDIA TensorRT. Features a producer-consumer threaded pipeline, async CUDA execution, and a full-stack React/FastAPI architecture for real-time 4K upscaling.",
-            "techUsed": [
-                "React",
-                "FastAPI",
-                "PyTorch",
-                "ResNet"
-            ],
-            "image": {
-                "url": "/project-images/image-upscaler.png"
             }
         },
         {
@@ -80,30 +79,6 @@
             }
         },
         {
-            "title": "Talk to your Data",
-            "description": "AI-powered data analysis app that supports multi-format dataset uploads, performs automatic data profiling (charts, completeness, missing values, domain detection), and enables conversational insights using RAG-based AI chat.",
-            "techUsed": [
-                "React",
-                "Tailwind CSS",
-                "TypeScript"
-            ],
-            "image": {
-                "url": "/project-images/Talk-to-your-data.png"
-            }
-        },
-        {
-            "title": "Legal Document Analyzer",
-            "description": "AI application that let's user upload their legal documents, and the app performs analysis to detect risky clauses and subclauses, their severity level, and generate recommended improvisations on it",
-            "techUsed": [
-                "Streamlit",
-                "Python",
-                "Document Parsing"
-            ],
-            "image": {
-                "url": "/project-images/ai-lawyer.png"
-            }
-        },
-        {
             "title": "Movie Recommendation System",
             "description": "A content-based movie recommender that analyzes movie metadata to compute similarity scores and deliver intelligent suggestions. Built with Python, the system includes a Jupyter notebook for data processing and model generation, and a Streamlit app for an interactive user experience.",
             "techUsed": [
@@ -128,12 +103,23 @@
         {
             "company": "Vivekanand Education Society of Arts, Science and Commerce (Autonomous)",
             "role": "Static Web Forms Development",
-            "startYear": 2023,
-            "endYear": "Present",
+            "startYear": 2025,
+            "endYear": 2026,
             "techStack": "HTML, CSS, JS, Google AppScript",
             "summaryPoints": [
-                "Developed web, stylized functional HTML Forms for the organisation for their internal use",
-                "Used Google AppScript, to connect the form with Google Sheets, GMail etc,"
+                "Developed the official Exam Remuneration System for both written and practical examinations (Serverless).",
+                "Digitalizing workflows for 100+ faculty, replacing manual paper processes with a centralized, secure online platform."
+            ]
+        },
+        {
+            "company": "Ally Blocksecure Media Pvt. Ltd.(TheAlly)",
+            "role": "AI Engineering Intern",
+            "startYear": 2026,
+            "endYear": "present",
+            "techStack": "PyTorch, Transformers, AWs, FastAPI",
+            "summaryPoints": [
+                "Built an end-to-end PDF parsing pipeline, replacing a 70B LLaMA-based system with a 4-bit quantized 7B Qwen model, achieving 10x parameter reduction and cutting inference costs by nearly 7x (2.67 USD/hr on H100 → 0.40 USD/hr on L4).",
+                "Developed a FastAPI backend with async job queuing and encryption, handling the full pipeline from document preprocessing to structured output postprocessing."
             ]
         }
     ],
@@ -146,7 +132,7 @@
             "summaryPoints": [
                 "Graduating with honors.",
                 "Focused on Web Development, Deep Learning with Pytorch and high-learning projects .",
-                "Current Latest CGPA = 8.48"
+                "Current Latest CGPA = 8.65"
             ]
         }
     ],

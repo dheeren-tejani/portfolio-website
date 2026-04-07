@@ -6,6 +6,7 @@ import eldenRing from '../images/eldenring.avif';
 import sekiro from '../images/sekiro.jpg';
 import uncharted4 from '../images/uncharted4.jpg';
 import subnautica from '../images/subnautica-below-zero.avif';
+import marvelRivals from '../images/marvel-rivals.jpg';
 
 const games = [
   {
@@ -32,6 +33,12 @@ const games = [
     imgSrc: subnautica,
     description: "A survival adventure set in a dynamic underwater environment, integrating resource management, exploration, and mystery-driven storytelling.",
   },
+  {
+    title: "Marvel Rivals",
+    studio: "High Moon Studios",
+    imgSrc: marvelRivals,
+    description: "A competitive multiplayer arena battle game featuring iconic Marvel characters, emphasizing fast-paced combat and strategic team play.",
+  }
 ];
 
 const Gaming: React.FC = () => {
