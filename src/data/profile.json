@@ -27,8 +27,8 @@
             }
         },
         {
-            "title": "Custom GPT-2 LLM (Built from Scratch)",
-            "description": "Engineered a 124M-parameter Transformer model entirely from first principles. Implemented Causal Self-Attention and trained on the C4 dataset using Mixed Precision (AMP) and 8-bit optimizers to master the internal mathematics of Large Language Models.",
+            "title": "Custom LLM (Built from Scratch)",
+            "description": " Built a 160M-parameter decoder-only Transformer from scratch in PyTorch (self-attention, positional embeddings, causal masking). Pretrained on Cosmopedia dataset over 84K steps / 22B tokens at 400K tokens/sec on H100 using BF16 AMP, gradient accumulation, cosine LR scheduling, and FlashAttention. Model demonstrated instruction-following capability after OpenHermes SFT, achieving a final loss of 1.5. Hosted it with Docker and FastAPI Backend and React Frontend",
             "techUsed": [
                 "Transformers",
                 "FastAPI",
@@ -40,8 +40,8 @@
             }
         },
         {
-            "title": "Latent Diffusion Model (Stable Diffusion from Scratch)",
-            "description": "Built a complete Text-to-Image generation pipeline implementing the math behind Stable Diffusion. Architected a VAE for latent compression, a U-Net with Cross-Attention for text conditioning, and manual DDPM/DDIM noise schedulers.",
+            "title": "Diffusion Transformer Model (Built from Scratch)",
+            "description": "Built a 1.6B-parameter Diffusion Transformer from scratch with flow matching, 2D RoPE positional encodings, Heun sampler, and timestep shift. Pre-latentized 6M Danbooru images using Flux’s 16-channel VAE across 5 aspect ratio buckets. Trained for 14K steps on B200 GPU, achieving a final MSE loss of 0.50 (lowest 0.48). Model successfully learned global color distribution, contrast, and style coherence.",
             "techUsed": [
                 "Generative AI",
                 "Diffusion Models",
