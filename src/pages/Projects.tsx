@@ -86,7 +86,15 @@ const Projects: React.FC = () => {
           >
             <img src={project.image.url} alt={project.title} className="project-image" />
             <div className="project-details">
-              <h3>{project.title}</h3>
+              {project.link ? (
+                <h3>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-title-link">
+                    {project.title}
+                  </a>
+                </h3>
+              ) : (
+                <h3>{project.title}</h3>
+              )}
               <p>{project.description}</p>
               <div className="tech-used">
                 {project.techUsed.map((tech, i) => (
