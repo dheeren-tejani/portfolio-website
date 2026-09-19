@@ -54,6 +54,32 @@
             }
         },
         {
+            "title": "AlphaZero style Chess Bot",
+            "description": "AlphaZero-style chess engine trained purely from self-play, with no human games, opening books, or handcrafted eval. C++17 bitboards + root-parallel MCTS, PyTorch SE-ResNet, ONNX inference. ~1600 FIDE after 312 iterations on one laptop GPU. Deployed on Modal CPU and playable in the browser.",
+            "techUsed": [
+                "PyTorch",
+                "FastAPI",
+                "React"
+            ],
+            "image": {
+                "url": "/project-images/chessbot.png"
+            },
+            "link": "https://chessbotplay.netlify.app/"
+        },
+        {
+            "title": "UNO Bot using RL",
+            "description": "Tabula rasa reinforcement learning for 2-player UNO, an imperfect-information card game. A masked recurrent actor-critic (GRU belief state) trained with PPO + GAE in a PFSP self-play league of past snapshots and heuristic opponents, on a Numba-accelerated vectorized engine, benchmarked against an ISMCTS baseline.",
+            "techUsed": [
+                "PyTorch",
+                "FastAPI",
+                "React"
+            ],
+            "image": {
+                "url": "/project-images/unobot.png"
+            },
+            "link": "https://uno-bot.netlify.app/"
+        },
+        {
             "title": "Diabetic Retinopathy Diagnosis",
             "description": "A Deep learning Classification + NLP model that detects Diabetic Retinopathy disease and classifies them into 5 classes + provide the lesions present in them and gives Natural Language diagnosis",
             "techUsed": [
@@ -64,32 +90,6 @@
             ],
             "image": {
                 "url": "/project-images/diabetic-retinopathy-diagnosis.png"
-            }
-        },
-        {
-            "title": "Cyberpunk Theme Image Generation",
-            "description": "An AI Image Generation application that generates high quality, multiple aspect ratios images from user prompts, it uses fine-tuned stable-diffusion 1.5 model",
-            "techUsed": [
-                "PyTorch",
-                "FastAPI",
-                "React",
-                "Stable Diffusion"
-            ],
-            "image": {
-                "url": "/project-images/cyberpunk-image-gen-part2.png"
-            }
-        },
-        {
-            "title": "Movie Recommendation System",
-            "description": "A content-based movie recommender that analyzes movie metadata to compute similarity scores and deliver intelligent suggestions. Built with Python, the system includes a Jupyter notebook for data processing and model generation, and a Streamlit app for an interactive user experience.",
-            "techUsed": [
-                "Streamlit",
-                "Jupyter",
-                "Scikit Learn",
-                "nltk"
-            ],
-            "image": {
-                "url": "/project-images/movie-recommendation-system.png"
             }
         }
     ],
